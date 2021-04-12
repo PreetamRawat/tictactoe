@@ -9,7 +9,7 @@ const App =()=>{
   
   const [currentMove, setCurrentMove]= useState(0);
   const current = history[currentMove];
-  console.log(history);
+  
 const winner = calculateWinner(current.board);
 
 
